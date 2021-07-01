@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: #f1f5f8;
+    font-family: 'Roboto', sans-serif;
+}
+/* h2 превьюшка*/
+.h2Changer{
+    background:  #5487ad;
+    padding: 20px;
+    border-radius: 10px;
+    color:#e3ecf3;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.ColorType{
+    color: rgb(37, 27, 27);
+}
+
+.btnChanger{
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid #212;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+   
+    outline: none;
+    cursor: pointer;
+}
+
+.btnChanger:hover{
+    color: #ffe;
+    background-color: #5b91bb; 
+    transition: all 0.155s ease-in;
+   }
+.ChangerConteiner{
+    text-align: center;
+}
